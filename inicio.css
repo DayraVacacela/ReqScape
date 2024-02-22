@@ -26,7 +26,7 @@ body{
     
 }
 .fila1-cl1{
-    padding: 15% 5%; /* Espacio a los lados */
+    padding: 30% 5%; /* Espacio a los lados */
     border-bottom: 1px solid rgba(19, 67, 145, 0.4); /* Borde en la parte inferior */
     
 }
@@ -61,4 +61,45 @@ button:hover {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     display: grid;
     grid-template-rows: auto 1fr;
+}
+.fila1-cl2{
+    /* padding: 30% 5%; Espacio a los lados */
+    border-bottom: 1px solid rgba(19, 67, 145, 0.4); /* Borde en la parte inferior */
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.logo{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.logo img{
+    width: 30%;
+}
+.botoneslog{
+    display: flex;
+    align-self: stretch;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+.inicio-sesion{
+    background-color: #552B9A;
+    color: whitesmoke;
+    border-radius: 40px;
+    /*width: 50%;*/
+    margin-right: 3%;
+}
+.registrarse{
+    background-color: #134391;
+    color: whitesmoke;
+    border-radius: 40px;
+    /*width: 50%;*/
+    margin-right: 5%;
+}
+.inicio-sesion:hover {
+    background-color: #0500FA; /* Cambia el color de fondo al pasar sobre el botón */  
+}
+.registrarse:hover {
+    background-color: #0500FA; /* Cambia el color de fondo al pasar sobre el botón */  
 }
