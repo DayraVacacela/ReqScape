@@ -37,7 +37,7 @@ body{
     gap: 5%;
     
 }
-button {
+.lg-cl1 {
     background-color: transparent; /* Fondo transparente */
     border: none; /* Borde transparente */
     padding: 10px 20px; /* Padding opcional para dar espacio al contenido */
@@ -45,7 +45,7 @@ button {
     border-radius: 10px;
 }
 
-button:hover {
+.lg-cl1:hover {
     background-color: #134391; /* Cambia el color de fondo al pasar sobre el botón */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transition: box-shadow 0.3s ease;
@@ -90,6 +90,10 @@ button:hover {
     border-radius: 40px;
     /*width: 50%;*/
     margin-right: 3%;
+    border: none; /* Borde transparente */
+    padding: 10px 20px; /* Padding opcional para dar espacio al contenido */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+   
 }
 .registrarse{
     background-color: #134391;
@@ -97,6 +101,9 @@ button:hover {
     border-radius: 40px;
     /*width: 50%;*/
     margin-right: 5%;
+    border: none; /* Borde transparente */
+    padding: 10px 20px; /* Padding opcional para dar espacio al contenido */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
 }
 .inicio-sesion:hover {
     background-color: #0500FA; /* Cambia el color de fondo al pasar sobre el botón */  
