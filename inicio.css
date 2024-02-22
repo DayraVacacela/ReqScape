@@ -47,7 +47,8 @@ button {
 
 button:hover {
     background-color: #134391; /* Cambia el color de fondo al pasar sobre el botón */
-    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
 }
 .columna-2 {
     
@@ -99,9 +100,13 @@ button:hover {
 }
 .inicio-sesion:hover {
     background-color: #0500FA; /* Cambia el color de fondo al pasar sobre el botón */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
 }
 .registrarse:hover {
     background-color: #0500FA; /* Cambia el color de fondo al pasar sobre el botón */  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
 }
 .contenido-juego{
     background-image: linear-gradient(to bottom, #2C9AFF, #53F3FD);
@@ -109,6 +114,8 @@ button:hover {
     display: grid;
     grid-template-rows: auto 1fr;
     border-radius: 10px;
+    width: 1180px;
+    height: 508px;
 }
 .logo-inicial{
     margin: 3%;
@@ -122,30 +129,47 @@ button:hover {
     align-items: center;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
     margin-top: 2%;
 }
 .btn-practica{
     /*background-color: #A6F208;*/
     background: linear-gradient(45deg, #A6F208 50%, #67EB00 50%);
-    box-shadow: inset 0 0 5px #4EC307;
+    box-shadow: inset 0 0 10px #4EC307;
     color: whitesmoke;
-    border-radius: 40px;
+    border-radius: 20px;
     /*width: 50%;*/
     margin-right: 3%;
     border: 1px solid #FFFFFF;
-    padding: 15px 30px; /* Ajusta el padding para aumentar el tamaño del botón */
-    font-size: inherit; /* Mantener el tamaño de la letra igual que el tamaño predeterminado */
+    padding: 15px 30px; 
+    font-size: 40px; 
+    font-family: 'Digitalt';
 }
 .btn-jugar{
     /*background-color: #A6F208;*/
     background: linear-gradient(45deg, #A6F208 50%, #67EB00 50%);
-    box-shadow: inset 0 0 5px #4EC307;
+    box-shadow: inset 0 0 10px #4EC307;
     color: whitesmoke;
-    border-radius: 40px;
+    border-radius: 20px;
     /*width: 50%;*/
     margin-right: 5%;
     border: 1px solid #FFFFFF;
-    padding: 15px 30px; /* Ajusta el padding para aumentar el tamaño del botón */
-    font-size: inherit; /* Mantener el tamaño de la letra igual que el tamaño predeterminado */
+    padding: 15px 30px; 
+    font-size: 42px; 
+    font-family: 'Digitalt';
 }
+.btn-practica:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+.btn-jugar:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+@font-face {
+    font-family: 'Digitalt';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./digitalt-webfont.woff2') format('woff2');
+    }
