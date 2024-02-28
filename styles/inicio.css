@@ -178,5 +178,5 @@ body{
     font-family: 'Digitalt';
     font-style: normal;
     font-weight: normal;
-    src: url('./digitalt-webfont.woff2') format('woff2');
+    src: url('../fonts/digitalt-webfont.woff2') format('woff2');
     }
