@@ -15,10 +15,15 @@
             if(isset($_POST['cambiarTexto'])) {
                 // Imprime el nuevo texto
                 echo "TU PRIMERA TAREA ES CATEGORIZAR LOS REQUERIMIENTOS DEL CLIENTE EN AMBIGUOS Y NO AMBIGUOS.";
-            } else {
+            if($_POST['cambiarTexto'] === 'TU PRIMERA TAREA ES CATEGORIZAR LOS REQUERIMIENTOS DEL CLIENTE EN AMBIGUOS Y NO AMBIGUOS.')  {
+                // Redirige a otro archivo PHP
+                header("Location: juego-nivel1.php");
+            }
+            }else {
                 // Texto inicial
                 echo "ERES UN INGENIERO DE REQUERIMIENTOS Y TE PROPONEN 6 TAREAS QUE TE AYUDARÁN A ASCENDER DE PUESTO…";
             }
+            
             ?>
            
         </span>
