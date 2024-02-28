@@ -48,14 +48,19 @@
                     </div>
                     <div class="btn-juego-principal">
                         <button class="btn-practica">Práctica</button>
-                        <button class="btn-jugar">Jugar</button>
+                        <form action="level1-txt.php" method="GET">
+                            <button type="submit" class="btn-jugar" name="jugar">Jugar</button>
+                        </form>
                     </div>
+                   
+            
                 </div>
             </div>
         </div>
     </div>
     <?php
     require_once '../../connection/connection.php';
+   
     ?>
 </body>
 </html>
