@@ -1,6 +1,7 @@
 
 .fila1{
  display: flex;
+ margin: 2% 2% 0% 2%;
 }
 .cash{
     font-size: 30px;
