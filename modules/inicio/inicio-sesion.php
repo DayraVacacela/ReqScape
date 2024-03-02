@@ -1,5 +1,6 @@
 <?php
 session_start();
+// Array asociativo que simula una base de datos de usuarios
 
 // Array asociativo que simula una base de datos de usuarios
 $usuarios = array(
