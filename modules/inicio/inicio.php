@@ -37,8 +37,12 @@
                     <img src="../../assets/img/logo.png" alt="">
                 </div>
                 <div class="botoneslog">
-                    <button class="inicio-sesion">Iniciar sesión</button>
-                    <button class="registrarse">Registrarse</button>
+                    <form action="inicio-sesion.php" method="GET">
+                            <button type="submit" class="inicio-sesion">Iniciar sesión</button>
+                    </form>
+                    <form action="registro.php" method="GET">
+                            <button type="submit" class="registrarse" name="registrarse">Registrarse</button> 
+                    </form>
                 </div>
             </div>
             <div class="fila2-cl2">
