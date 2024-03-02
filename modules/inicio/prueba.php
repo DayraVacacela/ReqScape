@@ -36,27 +36,13 @@
                 <div class="logo">
                     <img src="../../assets/img/inicio/logo.png" alt="">
                 </div>
-                <div class="botoneslog">
-                    <form action="inicio-sesion.php" method="GET">
-                            <button type="submit" class="inicio-sesion">Iniciar Sesión</button>
-                    </form>
-                    <form action="registro.php" method="GET">
-                            <button type="submit" class="registrarse" name="registrarse">Registrarse</button> 
-                    </form>
-                </div>
             </div>
             <div class="fila2-cl2">
                 <div class="contenido-juego">
                     <div class="logo-inicial">
                         <img src="../../assets/img/inicio/logoinicio.png" alt="">
                     </div>
-                    <div class="btn-juego-principal">
-                        <button class="btn-practica">Práctica</button>
-                        <form action="level1-txt.php" method="GET">
-                            <button type="submit" class="btn-jugar" name="jugar">Jugar</button>
-                        </form>
-                    </div>
-                   
+                                    
             
                 </div>
             </div>

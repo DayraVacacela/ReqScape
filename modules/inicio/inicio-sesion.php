@@ -29,6 +29,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css">
 <link rel="stylesheet" type="text/css" href="../../styles/login.css">
 </head>
+
 <body class="p-0 m-0">
     <div class="w-full h-screen flex justify-content-center align-content-center flex-wrap fondo">
         <div class="h-max contenedor-login">
@@ -90,13 +91,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
                 <button type="submit" class="estilo-button mt-3">INICIAR SESIÓN</button>
             </form>
-            <div class="w-full">¿Aún no tienes cuenta? <span
-                        class="ml-1 cursor-pointer">Registrate</span></p>
+            <div class="w-full">
+                        <form action="registro.php" method="GET">
+                            <button type="submit" class="ml-1 cursor-pointerr">Registrate</button>
+                        </form>    
                 <p class="estilo-password-olvidado text-center mt-2 cursor-pointer">¿Olvidaste tu contraseña?</p>
                 <p class="estilo-sugerencias text-center mt-2">Manual de uso </span></p>
            </div>
         </div>
     </div>
+
     <script>
         function togglePasswordVisibility() {
             var inputPassword = document.getElementById("passwordID");

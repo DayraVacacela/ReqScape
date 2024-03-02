@@ -34,16 +34,11 @@
         <div class="columna-2">
             <div class="fila1-cl2">
                 <div class="logo">
-                    <img src="../../assets/img/inicio/logo.png" alt="">
+                    <img src="../../assets/img/logo.png" alt="">
                 </div>
-                <div class="botoneslog">
-                    <form action="inicio-sesion.php" method="GET">
-                            <button type="submit" class="inicio-sesion">Iniciar Sesión</button>
-                    </form>
-                    <form action="registro.php" method="GET">
-                            <button type="submit" class="registrarse" name="registrarse">Registrarse</button> 
-                    </form>
-                </div>
+                <button class="perfil">
+                    <img src="../../assets/img/inicio/perfil.png" alt="">
+                </button>
             </div>
             <div class="fila2-cl2">
                 <div class="contenido-juego">
