@@ -112,6 +112,10 @@
         </div>
     </div>
 </div>
+<!-- Botón para enviar el formulario -->
+<form action="score-page.php" method="post" class="boton-env">
+        <button type="submit" class="btn-enviar">Enviar respuestas</button>
+    </form>
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
