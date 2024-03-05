@@ -1,5 +1,5 @@
 <head>
-<link rel="stylesheet" type="text/css" href="../../styles/level3-txt.css">
+<link rel="stylesheet" type="text/css" href="../../styles/level-txt.css">
 </head>
 <div class="fila1">
     <span class="titulo-nivel-txt">

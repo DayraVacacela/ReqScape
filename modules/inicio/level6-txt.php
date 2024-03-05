@@ -3,13 +3,15 @@
 </head>
 <div class="fila1">
     <span class="titulo-nivel-txt">
-        Nivel 02
+        Nivel 06
     </span>
 </div>
 <div class="fila2">
     <div class="fila2-1">
         <span class="texto1-txt">
-            TU SEGUNDA TAREA ES EMPAREJAR LOS REQUERIMIENTOS AMBIGUOS CON LOS REQUERIMIENTOS CORRECTOS
+        TU ÚLTIMA TAREA ES COMPLETAR EL FORMATO DE ESPECIFICACIÓN DE REQUERIMIENTOS FUNCIONALES DE MANERA CORRECTA. 
+        <br> ¡TE DE DESEO ÉXITO EN TU ÚLTIMA PARADA PARA SER ASCENDIDO!
+
         </span>
     </div>
     <div class="fila2-2">
